@@ -1,0 +1,28 @@
+*{
+    font-family: Georgia, serif;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.artical-container{
+    background-color: lightcyan;
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+.artical-meta{
+    background-color: gainsboro;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: none;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}

@@ -1,0 +1,27 @@
+/* block element stylling*/
+.block-element{
+    display: block;
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* inline elements stylling */
+.inline-element{
+    display: inline;
+    border: 1px dashed #007BFF;
+    padding: 5px;
+}
+
+/* inline-block elements stylling */
+.inline-block-element{
+    display: inline-block;
+    border: 1px solid #FF5733;
+    padding: 5px;
+    width: 100px;
+}
+
+/* none-elements stylling */
+.none-element{
+    display: none;
+}

@@ -1,0 +1,23 @@
+/* text-decoration & text-align */
+h2 {
+    text-decoration: underline;
+
+    text-align: c;
+}
+
+/* line height & color */
+p {
+    line-height: 1.6;
+    color: rgba(47, 79, 79, 0.974);
+}
+
+p::before {
+    content: "#";
+}
+
+/* background-color & font-family */
+div{
+    background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}

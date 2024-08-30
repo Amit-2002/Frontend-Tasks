@@ -1,0 +1,21 @@
+/* font-size & font-weight */
+h3 {
+    font-size: 32px;
+
+    font-weight: bold;
+}
+
+/* font-style & text-align */
+p {
+    font-style: italic;
+
+    text-align: justify;
+}
+
+/* background-color & line-height */
+.detail {
+    font-style: normal;
+    background-color: rgb(232,255,198);
+    line-height: 1.8;
+    padding: 10px;
+}

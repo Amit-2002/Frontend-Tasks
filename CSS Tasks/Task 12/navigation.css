@@ -1,0 +1,50 @@
+/* styling by element, class, and id selector */
+li, a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+    padding-left: 20px;
+}
+
+
+
+.nav {
+    background-color: #808080;
+    padding: 10px;
+}
+
+#specific a {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+/* Styling by pseudo element */
+.decorative > li::before{
+    content: '@';
+    color: yellow;
+}
+
+
+
+/* Styling by combinators */
+.submenu > li{
+    padding-left: 30px;
+    color: green;
+    list-style-type: disc;
+
+}
+
+.submenu{
+    margin-top: 5px;
+    padding-left: 20px;
+    border: 2px solid black;
+}
+
+.submenu > li + li {
+    color: aqua;
+    margin-top: 20px;
+}

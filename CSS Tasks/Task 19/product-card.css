@@ -1,0 +1,45 @@
+
+/* Applying basic css */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product-card {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    box-sizing: border-box;
+
+    height: auto;
+
+    background-color: gray;
+}
+
+p {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+span {
+    font-size: 20px;
+    color: #ff0000;
+}
+
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #00fe;
+    color: white;
+    border: 1px solid white;
+}
+
+img {
+    width: 260px;
+}

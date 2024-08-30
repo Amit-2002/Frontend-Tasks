@@ -1,0 +1,17 @@
+
+/* applying default height & width */
+.box-demo {
+    border: 1px solid #000;
+    background-color:  #e0e0e0;
+}
+
+/* exploring box-sizing effects */
+.box-demo2 {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background-color:  #e0e0e0;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    width: 500px;
+    height: 300px;
+}

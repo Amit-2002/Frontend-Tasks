@@ -1,0 +1,22 @@
+/* setting text & background color */
+body {
+    background-color: rgba(232, 98, 49, 0.953);
+}
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline dashed;
+}
+
+/* font-family & font-size */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* font-weight & font-style */
+.qut {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
