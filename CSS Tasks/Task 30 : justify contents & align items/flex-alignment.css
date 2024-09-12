@@ -1,0 +1,67 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* stylling of container */
+.container{
+    display: flex;
+    border: 2px dashed black;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+
+/* box stylling */
+.box {
+    box-sizing: border-box;
+    background-color: #c3dbeb;
+    border: 2px solid #608BA8;
+    width: 100px;
+    height: 100px;
+}
+
+/* exploring justify-content */
+.container{
+    justify-content: flex-start;   /* align to the starting of container */
+    justify-content: center;           /* align to center of container */
+    justify-content: space-between;   /* add space between the items in container first and last item will align to stat and end of container respectivly*/
+    justify-content: space-around;   /* create equal space aroun each item in container */
+    justify-content: space-evenly;   /* create equal space before and after each element in container. */
+}
+
+/* effect of flex-grow on justify content */
+/* 
+.box1{
+    flex-grow: 1;      box 1 will take all the space and justify-content property will be no longer.
+}
+*/
+
+
+
+/* exploring align items property */
+.container{
+    align-items: flex-start; /* align to the top of cross axis */
+    align-items: center; /* align to center verticallly in the container */
+    align-items: flex-end; /* allign items to bottom vertically in the container */
+}
+
+
+
+/* experiment with different height for each itme in container */
+.box1{
+    height: 100px;
+}
+.box2{
+    height: 150px;
+}
+.box3{
+    height: 200px;
+}
+
+.container{
+    align-items: flex-start; /* boxes are aligned to top vertically*/
+    align-items: center;    /* boxes are centered vertically in container*/
+    align-items: flex-end;  /* boxes are aligned to bottom in container */
+}
