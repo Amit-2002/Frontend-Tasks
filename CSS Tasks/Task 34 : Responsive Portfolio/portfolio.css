@@ -79,6 +79,47 @@ header{
     cursor: pointer;
 }
 
+            /* input box hidding */
+#check{
+    display: none;
+}
+
+                    /* side bar */
+.side-bar{
+    /* display: none; */
+    /* border: 2px solid red; */
+    position: fixed;
+    top: 55px;
+    right: 0;
+    background-color: #f5f5ef;
+    opacity: 0.8;
+    padding-left: 5px;
+    visibility: hidden;
+
+}
+.side-bar li{
+    list-style: none;
+    padding: 8px 10px 0 5px;
+    margin-bottom: 10px;
+
+}
+.side-bar a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #112B46;
+    font-weight: 600;
+}
+
+.side-bar a:hover{
+    cursor: pointer;
+    /* box-shadow: 2px 2px 3px #aaaaaa; */
+    /* font-size: 17px; */
+    /* opacity: 0.8; */
+    color: #616BF1;
+}
+.side-bar li:hover{
+    border-bottom: 2px solid  #112B46;
+}
 
 
                         /* about setion stylling */
@@ -298,6 +339,11 @@ footer{
     .header-nav i{
         display: block;
         font-size: 16px;
+    }
+
+    /* stylling to make visible menu option after clicking */
+    #check:checked ~ .side-bar{
+        visibility: visible;
     }
 
 

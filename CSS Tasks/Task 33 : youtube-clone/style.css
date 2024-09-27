@@ -1,0 +1,259 @@
+
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-icon-clr);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* color declaration */
+:root{
+    --bgclr: #0F0F0F;
+    --light-black: #222222;
+    --text-icon-clr: #FFFFFF;
+}
+body{
+    background-color: var(--bgclr);
+}
+
+
+
+
+                                /* header stylling */
+header{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 7vh;
+    padding: 7px 20px 0 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+                    
+                /* nav-left section */
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.left:hover{
+    cursor: pointer;
+}
+
+.left .menu-icon {
+    padding: 7px 8px 2px 8px;
+    border-radius: 50%;
+}
+.left .menu-icon:hover{
+    background-color: var(--light-black);
+    cursor: pointer;
+}
+
+
+.left span{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left sup{
+    font-size: 10px;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    /* border: 1px solid white; */
+}
+
+
+                /* nav-middle section */
+.middle{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* border: 1px solid green; */
+
+}
+.search-feild{
+    display: flex;
+}
+.middle input{
+    background-color: var(--bgclr);
+    width: 516px;
+    height: 39px;
+    border: 1px solid #303030;
+    font-size: 16px;
+    padding-left: 16px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.search-feild svg{
+    border: 1px solid #303030;
+    width: 4.5vw;
+    height: 39px;
+    padding: 5px 0;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: var(--light-black);
+}
+.search-feild svg{
+    cursor: pointer;
+}
+
+.middle .mic{
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: var(--light-black);
+}
+.middle .mic:hover{
+    cursor: pointer;
+    background-color: #2C2C2C;
+}
+
+
+                /* nav-right section */
+.right{
+    /* border: 1px solid violet; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.right:hover{
+    cursor: pointer;
+}
+
+.right-icon{
+    padding: 7px 8px 2px 8px;
+    border-radius: 50%;
+}
+.right-icon:hover{
+    background-color: var(--light-black);
+}
+.right span{
+    background-color: #465A65;
+    padding: 6px 12px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50%;
+}
+
+
+                                 /* main section */
+main{
+    /* width: 100vw;
+    height: 93vh;
+    border: 2px solid green; */
+    display: flex;
+}
+
+                        /* sidebar stylling */
+.sidebar{
+    width: 18vw;
+    height: 93vh;
+    border: 1px solid yellow;
+    padding: 10px 15px;
+    overflow-y: scroll;
+
+}
+
+.sidebar svg{
+    fill: white;
+    height: 24px !important;
+    width: 24px !important;
+}
+ 
+.home-section,.you-section{
+    /* border-bottom: 1px solid #303030; */
+    display: flex;    
+    flex-direction: column;
+    /* gap: 3px; */
+}
+.home, .you{
+    /* border: 1px solid violet; */
+    display: flex;
+    align-items: center;
+    gap: 15px;    
+    padding: 7px 10px;
+    border-radius: 10px;
+    width: 15vw;
+}
+.h{
+    background-color: #2C2C2C;
+}
+.home:hover, .you:hover, .yt:hover{
+    background-color: #2C2C2C;
+}
+
+.you-section, .sidebar-bottom{
+    border-top: 1px solid #3F3F3F;
+    margin-top: 14px;
+    padding-top: 10px;
+}
+.sidebar-bottom{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 7px 10px;
+
+}
+.sidebar-bottom p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #AAAAA5;
+    font-weight: 600;
+}
+.sidebar-bottom span{
+    font-size: 13px;
+    color: #AAAAA5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainbar{
+    width: 80vw;
+    height: 93vh;
+    border: 1px solid green;
+}
