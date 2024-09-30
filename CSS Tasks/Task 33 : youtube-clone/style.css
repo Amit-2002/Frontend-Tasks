@@ -149,6 +149,10 @@ nav {
     cursor: pointer;
 }
 
+.right .search-icon{
+    display: none;
+}
+
 .right-icon {
     padding: 7px 8px 2px 8px;
     border-radius: 50%;
@@ -309,14 +313,18 @@ main {
                 /* mainbar-container */
 
 .mainbar-container{
-    height: 84.3vh;
+    height: 84.5vh;
     /* width: 100%; */
     /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     overflow: auto;
+    /* scrollbar-width: none; */
     row-gap: 3.5vw;
 }
+/* .mainbar-container:hover{
+    scrollbar-width: auto;
+} */
 
 .item{
     /* border: 1px solid yellow; */
@@ -389,4 +397,119 @@ main {
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+                                        /* media query for mobile device width 430 px */
+@media (max-width:430px){
+                /* header */
+    header{
+        /* border: 1px solid violet; */
+        width: 100vw;
+
+    }
+        /* left */
+    header .menu-icon  {
+        display: none;
+        /* gap: 0; */
+    }
+
+    .left .logo sup{
+        display: none;
+    }
+
+    .left .logo span{
+        font-size: 20px;
+        letter-spacing: -1px;
+    }
+    .logo img{
+        width: 28px;
+        height: 28px;
+    }
+
+
+        /* middle */
+    
+    .middle{
+        display: none;
+    }
+
+
+        /* right */
+    .right{
+        /* border: 1px solid violet; */
+        gap: 8px;
+    }
+    
+    .right span{
+        display: none;
+    }
+
+    .right .search-icon{
+        display: block;
+        padding: 7px 8px 2px 8px
+    }
+
+
+
+
+
+
+                /* sidebar */
+  .sidebar{
+    display: none;
+  }
+
+
+
+
+                /* mainbar */
+
+        /* mainbar-top */
+  .mainbar-top{
+    width: 100vw;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #AAAAAA;
+    padding-top: 0;
+    /* border: 1px solid green; */
+  }
+  .mainbar-top span{
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+
+        /* mainbar-container */
+    .mainbar-container{
+        /* border: 1px solid violet; */
+        width: 99vw;
+        display: grid;   
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+        scrollbar-width: none;
+    }
+    .item{
+        /* border: 1px solid yellow; */
+        width: 100vw;
+    }
+
+    .item .vdo iframe{
+        width: 100%;
+        border-radius: 0;
+    }
+    .item .vdo-content{
+        /* width: 95%; */
+        /* border: 1px solid red; */
+        padding: 10px 14px;
+    }
+
 }
