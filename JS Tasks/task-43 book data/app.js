@@ -9,13 +9,13 @@ class Book{
     }
 
                 // b. Add Methods to the Book Class:
-        describe(){
-            console.log(`"${this.title}" by ${this.author}, published in (${this.year})`)
-        }
+    describe(){
+        console.log(`"${this.title}" by ${this.author}, published in (${this.year})`)
+    }
 
-        displayGenre() {
-            console.log(`Genre : ${this.genre}`)    
-        }
+    displayGenre() {
+        console.log(`Genre : ${this.genre}`)    
+    }
 
 }
 
